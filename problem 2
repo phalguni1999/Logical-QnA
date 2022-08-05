@@ -11,3 +11,19 @@ if ans:
     print("it is a palindrome")
 else:
     print("it is not a palindrome")
+
+
+# check an integer is a palindrome or not .
+
+#CHECK PALINDROME OF AN INTEGER (if the integer is equal with the reverse of that integer then it is called a palindrome)
+
+num1 = '404'
+rev = ''
+
+for i in num1:
+    rev = i + rev
+
+if num1 == rev:
+    print(num1 , "it is a palindrome number")
+else:
+    print(num1 , "not a palindrome number")
