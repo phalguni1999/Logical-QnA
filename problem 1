@@ -1,0 +1,13 @@
+#"a3b2c4" ------> making output -> aaabbcccc
+
+#create a string 
+str1 = "a3b2c4"
+output = ""
+for char in str1:
+    if char.isalpha():   #---> there is a built_in function present in python that is .isalpha()
+        var = char
+    else:
+        num = int(char)
+        output = output+(var*num)
+        
+print(output)
